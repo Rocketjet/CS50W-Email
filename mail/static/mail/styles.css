@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+textarea {
+    min-height: 400px;
+}
+
+.emails-view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email-body {
+  border: 2px solid #007bff !important;
+  border-radius: 15px !important;
+  padding: 10px;
+}
+
+.unread {
+  background-color: #e9ecef;
+}
