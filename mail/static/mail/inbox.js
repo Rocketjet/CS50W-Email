@@ -140,7 +140,7 @@ async function view_email(id, mailbox) {
       subject = subject.split(' ')[1];
     }
     document.querySelector('#compose-subject').value = subject;
-    document.querySelector('#compose-body').value = `On ${email.timestamp} ${email.sender} wrote: ${email.body}`;
+    document.querySelector('#compose-body').value = `<< On ${email.timestamp} ${email.sender} wrote: ${email.body} >>\n`;
   });
 
   //Adding archive button
