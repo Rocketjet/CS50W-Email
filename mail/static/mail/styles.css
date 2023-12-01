@@ -6,6 +6,16 @@ textarea {
     min-height: 400px;
 }
 
+.submit {
+  margin-top: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 700px;
+}
+
 .emails-view {
   display: flex;
   flex-direction: column;
@@ -16,6 +26,12 @@ textarea {
   border: 2px solid #007bff !important;
   border-radius: 15px !important;
   padding: 10px;
+  cursor: pointer;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 10px;
 }
 
 .unread {
